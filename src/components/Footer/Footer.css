@@ -1,0 +1,19 @@
+.cont_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* background-color: rgb(34, 138, 170); */
+    height: 70px;
+    
+}
+
+hr {
+    border: 1px solid rgb(34, 138, 170);
+}
+
+.hr_footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

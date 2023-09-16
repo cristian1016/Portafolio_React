@@ -1,0 +1,13 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+main {
+  width: 1400px;
+  border-left: 1px solid rgb(34, 138, 170);
+  border-right: 1px solid rgb(34, 138, 170);
+  color: rgb(34, 138, 170);
+  box-shadow: 0px 0px 10px;
+}

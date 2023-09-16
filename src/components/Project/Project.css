@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color: rgb(57, 57, 57);
+}
+
+#img_project {
+    height: 230px;
+} 
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.container .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgb(34, 138, 170);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+}
+
+.container:hover .card {
+    filter: blur(4px);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.container .card:hover {
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+.container .card:hover .content p {
+    color: #fff;
+}
+
+.container .card:hover .content a {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .2), 
+                -1px -1px 2px rgba(255, 255, 255, .4);
+}
+
+.container .card .content a:active {
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .2), 
+                inset 5px 5px 5px rgba(0, 0, 0, .04),
+                inset -5px -5px 5px rgba(255, 255, 255, .07),
+                inset -1px -1px 2px rgba(255, 255, 255, .4);
+}
+
+
+.container .card .content {
+    bottom: 10px;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .card .content p {
+    color: #666;
+    transition: .5s ease-in-out;
+}
+
+.container .card a {
+
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: .8s ease-in-out;
+}
+
+.content a {
+    color: #fff;
+}
