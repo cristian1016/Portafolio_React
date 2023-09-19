@@ -4,7 +4,7 @@ body {
     justify-content: center;
 }
 
-.content_body{
+.content_body {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,24 +12,24 @@ body {
     height: 480px;
 }
 
-.content-text{
-    & h2{
-        font-size: 30px;
-        color: rgb(202, 201, 201);
-        margin-top: 5px;
-    }
+.content-text h1 {
+    color: rgb(202, 201, 201);
+    margin-top: 5px;
+    font-size: 30px;
+}
 
-    & h1{
-        color: rgb(202, 201, 201);
-        margin-top: 5px;
-        font-size: 30px;
-    }
 
-    & p {
-        color: rgb(202, 201, 201);
-        width: 500px;
-        margin-top: 20px;
-    }
+
+.content-text h2 {
+    font-size: 30px;
+    color: rgb(202, 201, 201);
+    margin-top: 5px;
+}
+
+.content-text p {
+    color: rgb(202, 201, 201);
+    width: 500px;
+    margin-top: 20px;
 }
 
 .social_media {
@@ -40,7 +40,7 @@ body {
     height: 70px;
 }
 
-a:hover{
+a:hover {
     filter: blur(1px);
     transform: scale(1);
     opacity: 1;
@@ -56,7 +56,7 @@ a:hover{
     width: 50px;
 }
 
-.content{
+.content {
     display: flex;
 }
 
@@ -80,4 +80,3 @@ a:hover{
     color: rgb(34, 138, 170);
     margin-left: 8px;
 }
-
