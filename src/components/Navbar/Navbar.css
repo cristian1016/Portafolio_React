@@ -1,13 +1,13 @@
 .navbar{
     display: flex;
+}
 
-    & a {
-        margin-right: 20px;
-        text-decoration: none;
-        color: rgb(202, 201, 201);
-    }
+a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(202, 201, 201);
+}
 
-    & a:hover {
-        color: rgb(34, 138, 170);
-    }
+a:hover {
+    color: rgb(34, 138, 170);
 }
