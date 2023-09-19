@@ -2,10 +2,14 @@
     display: flex;
 }
 
-a {
+.navbar a {
     margin-right: 20px;
     text-decoration: none;
     color: rgb(202, 201, 201);
+}
+
+.navbar li {
+    list-style: none;
 }
 
 a:hover {

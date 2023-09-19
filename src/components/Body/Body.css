@@ -19,7 +19,6 @@ body {
 }
 
 
-
 .content-text h2 {
     font-size: 30px;
     color: rgb(202, 201, 201);
@@ -38,6 +37,10 @@ body {
     justify-content: center;
     justify-content: space-around;
     height: 70px;
+}
+
+.social_media img {
+    width: 50px;
 }
 
 a:hover {
